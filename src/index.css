@@ -78,14 +78,11 @@
   height: 8px;
 }
 
-.slider::-webkit-slider-runnable-track {
-  background-color: ;
-}
-
 .slider::-webkit-slider-thumb {
   -webkit-appearance: none;
   background-color: var(--grey-200);
   height: 28px;
   width: 28px;
   border-radius: 50%;
+  cursor: pointer;
 }
