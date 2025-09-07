@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
 :root {
   --grey-950: #08070B;
   --grey-900: #14131B;
@@ -25,7 +27,7 @@
   --preset-4-size: 16px;
 
   --font-weight-bold: 500;
-  --font-family: 'Jetbrains Mono', 'sans-serif';
+  --font-family: 'Jetbrains Mono', 'monospace';
 }
 
 * {
