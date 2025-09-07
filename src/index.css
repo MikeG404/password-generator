@@ -10,7 +10,7 @@
   --grey-600: #817D92;
   --grey-200: #E6E5EA;
 
-  --green-200: ;
+  --green-200: #A4FFAF;
   --orange-400: ;
   --red-500: ;
   --linear-gradient-black: linear-gradient(90deg,rgba(20, 19, 27, 1) 0%, rgba(8, 7, 11, 1) 100%);
@@ -66,4 +66,26 @@
   font-weight: var(--font-weight-bold);
   line-height: var(--preset-4-line-height);
   letter-spacing: var(--tracking);
+}
+
+.bg-neon {
+  background-color: var(--color-green-200);
+}
+
+.slider {
+  -webkit-appearance: none;
+  background-color: var(--green-200);
+  height: 8px;
+}
+
+.slider::-webkit-slider-runnable-track {
+  background-color: ;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  background-color: var(--grey-200);
+  height: 28px;
+  width: 28px;
+  border-radius: 50%;
 }

@@ -27,7 +27,9 @@ export default function Slider() {
             min={values.min} 
             max={values.max} 
             value={values.currentValue} 
-            onChange={handleChange}/>
+            onChange={handleChange}
+            className='slider'
+        />
     </div>
   )
 }
