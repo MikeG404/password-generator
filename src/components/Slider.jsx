@@ -11,7 +11,7 @@ export default function Slider() {
     const sliderTrackStyle = useMemo(() => {
         const gradientPErcentage = (values.currentValue / values.max) * 100
         return {
-            background: `linear-gradient(to right, rgb(164, 255, 175, 1) ${gradientPErcentage}%, rgba(0, 0, 0, 0.25) ${gradientPErcentage}%)`
+            background: `linear-gradient(to right, rgb(164, 255, 175) ${gradientPErcentage}%, rgb(8, 7, 11) ${gradientPErcentage}%)`
         }
     }, [values.currentValue])
 
@@ -27,8 +27,8 @@ export default function Slider() {
   return (
     <div id='slider'>
         <div id='slider-text' className='flex w-full'>
-            <label htmlFor="slider">Character Length</label>
-            <p>{values.currentValue}</p>
+            <label htmlFor="slider" className='preset-3'>Character Length</label>
+            <p className='preset-1 text-neon'>{values.currentValue}</p>
         </div>
         <input 
             type='range' 

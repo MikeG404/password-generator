@@ -72,6 +72,10 @@
   background-color: var(--color-green-200);
 }
 
+.text-neon {
+  color: var(--color-green-200);
+}
+
 .slider {
   -webkit-appearance: none;
   background-color: var(--green-200);
@@ -85,4 +89,9 @@
   width: 28px;
   border-radius: 50%;
   cursor: pointer;
+}
+
+.slider::-webkit-slider-thumb:hover {
+  background-color: var(--grey-950);
+  border: #A4FFAF solid 2px;
 }
