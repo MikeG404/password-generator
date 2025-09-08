@@ -1,11 +1,13 @@
 import './App.css'
 import Slider from './components/Slider'
+import Strength from './components/Strength'
 
 function App() {
 
   return (
     <main>
-        <Slider />
+        {/* <Slider /> */}
+        <Strength />
     </main>
   )
 }
