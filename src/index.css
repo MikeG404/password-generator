@@ -34,7 +34,10 @@
 * {
   box-sizing: border-box;
   margin: 0;
-  padding: 0;
+}
+
+#root {
+  height: 100vw;
 }
 
 .preset-1 {
@@ -72,8 +75,20 @@
   background-color: var(--color-green-200);
 }
 
+.bg-gray-800-2 {
+  background-color: var(--grey-800);
+}
+
+.bg-gradient-black {
+  background-color: var(--linear-gradient-black);
+}
+
 .text-neon {
   color: var(--color-green-200);
+}
+
+.text-gray-700-2 {
+  color: var(--color-gray-700);
 }
 
 .slider {

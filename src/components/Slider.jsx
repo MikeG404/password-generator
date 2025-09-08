@@ -4,7 +4,7 @@ export default function Slider() {
     const [values, setValues] = useState({
         min: 0,
         max: 20,
-        currentValue: 10,
+        currentValue: 0,
         step: 1
     })
 
