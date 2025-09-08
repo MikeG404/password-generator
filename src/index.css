@@ -1,4 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+@font-face {
+  font-family: "Jetbrains Mono";
+  src: url("../public/fonts/JetBrainsMono-VariableFont_wght.ttf");
+  font-weight: 400;
+}
+
 @import "tailwindcss";
 
 :root {
@@ -80,7 +85,7 @@
 }
 
 .bg-gradient-black {
-  background-color: var(--linear-gradient-black);
+  background: var(--linear-gradient-black);
 }
 
 .text-neon {
@@ -89,6 +94,10 @@
 
 .text-gray-700-2 {
   color: var(--color-gray-700);
+}
+
+.text-gray-600-2 {
+  color: var(--color-gray-600);
 }
 
 .text-gray-200-2 {
