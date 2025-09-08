@@ -123,3 +123,25 @@
   background-color: var(--grey-950);
   border: #A4FFAF solid 2px;
 }
+
+.checkbox {
+  display: none;
+}
+
+.checkbox + label {
+  position: relative;
+  padding-left: 35px;
+  cursor: pointer;
+}
+
+.checkbox + label::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 2px;
+  
+  width: 20px;
+  height: 20px;
+  border: 2px solid white;
+  background-color: transparent;
+}
