@@ -14,8 +14,7 @@ function App() {
       <section className='w-full flex flex-col p-4 gap-8 bg-gray-800-2'>
         <Slider />
         <ChecboxesList />
-        {/* <Strength /> */}
-
+        <Strength />
       </section>
     </main>
   )

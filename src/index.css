@@ -80,6 +80,10 @@
   background-color: var(--color-green-200);
 }
 
+.bg-gray-850-2 {
+  background-color: var(--grey-850);
+}
+
 .bg-gray-800-2 {
   background-color: var(--grey-800);
 }

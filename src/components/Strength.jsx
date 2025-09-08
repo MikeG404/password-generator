@@ -2,15 +2,15 @@ import React from 'react'
 
 export default function Strength() {
   return (
-    <div className='flex bg-black'>
-        <p className='preset-2 flex-1 text-gray-500'>Strength</p>
+    <div className='flex items-center bg-gray-850-2 px-4 py-[14px]'>
+        <p className='preset-4 flex-1 text-gray-500'>STRENGTH</p>
         <div className='flex items-center gap-4'>
-            <p className='preset-2 text-white'>Too Weak</p>
+            <p className='preset-2 text-white'></p>
             <div className='flex gap-2'>
-                <div className='h-8 w-3 bg-red-400'></div>
-                <div className='h-8 w-3 bg-black border-2 border-white'></div>
-                <div className='h-8 w-3 bg-black border-2 border-white'></div>
-                <div className='h-8 w-3 bg-black border-2 border-white'></div>
+                <div className='h-8 w-3 border-2 border-white'></div>
+                <div className='h-8 w-3  border-2 border-white'></div>
+                <div className='h-8 w-3  border-2 border-white'></div>
+                <div className='h-8 w-3  border-2 border-white'></div>
             </div>
         </div>
 
