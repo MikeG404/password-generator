@@ -26,8 +26,8 @@ export default function Slider() {
 
   return (
     <div id='slider'>
-        <div id='slider-text' className='flex w-full'>
-            <label htmlFor="slider" className='preset-3'>Character Length</label>
+        <div id='slider-text' className='flex justify-between items-center gap-2 w-full'>
+            <label htmlFor="slider" className='preset-4 text-gray-200-2'>Character Length</label>
             <p className='preset-1 text-neon'>{values.currentValue}</p>
         </div>
         <input 
@@ -38,7 +38,7 @@ export default function Slider() {
             max={values.max} 
             value={values.currentValue} 
             onChange={handleChange}
-            className='slider'
+            className='slider w-full'
             style={sliderTrackStyle}
             aria-label='Character number selector'
         />

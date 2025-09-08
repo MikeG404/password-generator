@@ -91,6 +91,10 @@
   color: var(--color-gray-700);
 }
 
+.text-gray-200-2 {
+  color: var(--color-gray-200);
+}
+
 .slider {
   -webkit-appearance: none;
   background-color: var(--green-200);
